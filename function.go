@@ -10,9 +10,3 @@ func divide(a int, b int) (int, error) {
 	}
 	return a / b, nil
 }package main
-
-import "fmt"
-
-func main() {
-	fmt.Println("Hello, Go!")
-}
