@@ -1,6 +1,14 @@
-func add(a int, b int) int {
-	return a + b
+package main
+
+import "fmt"
+
+func main() {
+
+	greetUser("Steven")
+	greetUser("Amina")
+
 }
-func multiply(a int, b int) int {
-	return a * b
+
+func greetUser(name string) {
+	fmt.Println("Hello", name)
 }
